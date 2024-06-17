@@ -30,3 +30,4 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+//Shuttle should have not lifted off but when running the code it shows that it lifts off.s

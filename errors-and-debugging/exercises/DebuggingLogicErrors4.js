@@ -3,7 +3,7 @@
 
 // Given the values for fuelLevel, crewStatus and computerStatus, should launchReady be true or false?
 // Is the program behaving as expected?
-
+// The program is behaving as it should because its set up with the specific values to cause both blocks to contradict each other. If one is saying false and the other is saying true then i would say its not ready for launch. I would only launch if both are true.
 let launchReady = false;
 let fuelLevel = 17000;
 let crewStatus = true;

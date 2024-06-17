@@ -20,16 +20,16 @@ let engineTemperature = 1200;
 if (fuelLevel<1000 || engineTemperature>3500 ||engineIndicatorLight === "red blinking") {
     console.log("Engine fail Imminent!");
 }
-if (fuelLevel<=5000 || engineTemperature>2500) {
+else if (fuelLevel<=5000 || engineTemperature>2500) {
     console.log("Check fuel level. Engines running hot.")
 }
-if (fuelLevel>20000 && engineTemperature<=2500) {
+else if (fuelLevel>20000 && engineTemperature<=2500) {
     console.log("Full tank. Engines good.");
 }
-if (fuelLevel>10000 && engineTemperature<=2500) {
+else if (fuelLevel>10000 && engineTemperature<=2500) {
     console.log("Fuel level above 50%. Engines good.");
 }
-if (fuelLevel>5000 && engineTemperature<=2500) {
+else if (fuelLevel>5000 && engineTemperature<=2500) {
     console.log("Fuel level above 25%. Engines good.");
 }
 else {

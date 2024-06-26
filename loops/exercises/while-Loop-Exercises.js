@@ -28,7 +28,7 @@ while(fuel - (100 * astronautsnum) >= 0) {
 
 }
 
-/*Exercise #5: Output the result with the phrase, “The shuttle gained an altitude of ___ km.”
+/*Exercise #5: Output the result withz the phrase, “The shuttle gained an altitude of ___ km.”
 
 If the altitude is 2000 km or higher, add “Orbit achieved!” Otherwise add, “Failed to reach orbit.”*/
 
